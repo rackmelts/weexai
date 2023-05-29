@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>WeexAI 地址发布页</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0, user-scalable=0">
+		<style>
+			body {
+				position: relative;
+				margin: 0;
+				padding: 0;
+				background-color: #e9e9ff;
+				display: flex;
+				flex-direction: column;
+				height: 100%;
+				width: 100%;
+				min-height: 100vh;
+			}
+			.index_page {
+				position: relative;
+			}
+			.section_service {
+				align-items: center;
+				background: url(./images/bg-03-02.svg) 50% no-repeat,url(./images/bg-03-01.svg) 50% no-repeat;
+				display: flex;
+				flex-direction: column;
+				height: auto;
+				justify-content: center;
+				padding: 60px 0;
+			}
+			.section_service .info {
+			    align-items: center;
+			    display: flex;
+			    flex-direction: column;
+			    width: 100%;
+			}
+			.section_service .info h1 {
+			    font-family: Poppins-SemiBold;
+			    font-size: 2.15rem;
+			    margin-bottom: 1rem;
+			}
+			.section_service .info p {
+			    font-family: Poppins-Medium;
+			    font-size: 1rem;
+			}
+			.section_service .tips {
+			    margin-bottom: 20px;
+			    padding: 12px;
+				font-size: 20px;
+				font-weight: 600;
+			}
+			.section_service .tab_list {
+			    margin-top: 2.5rem;
+			}
+			.section_service .tab_list p {
+			    font-family: Poppins-Medium;
+			    font-size: 1rem;
+			    text-align: center;
+			}
+			.section_service .tab_list .list {
+			    align-items: center;
+			    background-color: #fff;
+			    border-radius: 6px;
+			    display: flex;
+			    margin-top: 1rem;
+			    padding: 16px;
+			}
+			.section_service .tab_list .list .items {
+			    align-items: center;
+			    background-color: #e0e7ff;
+			    border-radius: 6px;
+			    color: #8b5cf6;
+			    display: flex;
+			    flex-direction: column;
+			    font-family: Poppins-Medium;
+			    font-size: 18px;
+			    font-weight: 600;
+			    margin-right: 16px;
+			    padding: 6px 0;
+			    width: 160px;
+			}
+			.section_service .tab_list .list .items span {
+			    color: #000;
+			    font-size: 12px;
+			    font-weight: 500;
+			    letter-spacing: 1px;
+			}
+			.links {
+				width: 100%;
+				max-width: 600px;
+				background-color: #fff;
+				padding: 32px;
+				border-radius: 20px;
+				display: flex;
+				flex-direction: column;
+			}
+			.links .items {
+				padding: 12px 0;
+				display: flex;
+				flex-direction: column;
+				border-bottom: 1px solid #e6e6e6;
+			}
+			.links .items label {
+				margin-bottom: 6px;
+				font-size: 16px;
+				color: #000;
+				font-weight: 600;
+			}
+			.links .items a {
+				margin-bottom: 6px;
+				font-size: 15px;
+				color: #8b5cf6;
+			}
+			.footer {
+				display: flex;
+				align-items: center;
+				justify-content: center;
+				width: 100%;
+				position: absolute;
+				bottom: 12px;
+			}
+			@media (max-width: 800px) {
+				.links {
+					width: 100%;
+					max-width: 100%;
+					margin: 10px 0;
+					padding: 0;
+					background-color: #fff;
+					border-radius: 0;
+					display: flex;
+					flex-direction: column;
+				}
+				.links .items {
+					padding: 12px 16px;
+				}
+				.footer {
+					width: 100%;
+					position: relative;
+					bottom: 0;
+					margin: 20px 0 10px 0;
+				}
+				.section_service .tab_list{
+					width: 100%;
+				}
+				.section_service .tab_list .list {
+				    flex-direction: column;
+				}
+				.section_service .tab_list .list .items {
+				    margin-right: 0;
+					margin-bottom: 12px;
+					width: 100%;
+				}
+			}
+		</style>
+	</head>
+	<body>
+		<div class="index_page">
+			<section class="section_service">
+				<div class="info">
+					<div class="logo"></div>
+					<h1>欢迎来到 Weex Chat</h1>
+					<p>它是一个属于你的人工智能知识机器人。</p>
+				</div>
+				<div class="tips">WeexAI 地址发布页</div>
+				<div class="links">
+					<div class="items">
+						<label>主用</label>
+						<a href="https://weexai.com" target="_blank">https://weexai.com</a>
+					</div>
+					<div class="items">
+						<label>备用</label>
+						<a href="https://weexai.org" target="_blank">https://weexai.org</a>
+					</div>
+					<div class="items">
+						<label>发布页</label>
+						<a href="https://chat.weexai.online" target="_blank">https://chat.weexai.online</a>
+					</div>
+				</div>
+				<div class="tab_list">
+					<p>更多特色功能</p>
+					<div class="list">
+						<div class="items"> GPT-4-8K/32K <span>More</span></div>
+						<div class="items">谷歌搜索 <span>More</span></div>
+						<div class="items">必应搜索 <span>More</span></div>
+						<div class="items">语音合成 <span>More</span></div>
+					</div>
+				</div>
+			</section>
+			<div class="footer">2023 © Weex Chat. All Rights Reserved.</div>
+		</div>
+	</body>
+</html>
